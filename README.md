@@ -4,12 +4,12 @@ This is a containerized Kubernetes CLI (`kubectl`) based on `anand000/docker-ter
 
 > This container includes the AWS CLI and the Terraform v0.12.x binary.
 
-[![DockerHub Badge](http://dockeri.co/image/anand000/docker-kubernetes-cli)](https://hub.docker.com/r/anand000/docker-kubernetes-cli/)
+[![DockerHub Badge](http://dockeri.co/image/thinkwrap/docker-kubernetes-cli)](https://hub.docker.com/r/thinkwrap/docker-kubernetes-cli/)
 
 ## Example build
 
 ```
-docker build -t anand000/docker-kubernetes-cli .
+docker build -t thinkwrap/docker-kubernetes-cli .
 ```
 
 ## Example usage
@@ -34,7 +34,7 @@ docker run --name docker-kubernetes-cli \
     --env "AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}" \
     --env "AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}" \
     --env "AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}" \
-    anand000/docker-kubernetes-cli
+    thinkwrap/docker-kubernetes-cli
 ```
 
 **Run a command**
