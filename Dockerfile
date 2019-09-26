@@ -1,4 +1,4 @@
-FROM anand000/docker-terraform-cli
+FROM thinkwrap/docker-terraform-cli
 
 ENV KUBECONFIG=/root/.kube/config
 
